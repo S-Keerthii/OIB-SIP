@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: #0000ff;
+
+}
+  .nav-bar {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 400px;
+    margin-left: 8rem;
+    margin-right: 2rem;
+  }
+  
+ 
+  .logo img {
+   max-height:150px;
+   margin: 0;
+   padding-left: 25px;
+   margin-bottom: 370px;
+  
+
+  
+}
+  .nav-items > a {
+    text-decoration: none;
+margin-left: 90px;
+    color:blue;
+    font-size: 16px;
+    font-weight: 500;
+
+
+  }
+  .nav-items > button {
+    margin-left: 70px;
+    background-color: blue;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  .hero-section {
+    height: 80vh;
+    background-image: url('./pic/back1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .hero-text-section {
+    color:hsl(224, 86%, 27%);
+    margin-left: 4rem;
+    margin-top: 4rem;
+
+  }
+  .hero-text-section > h2 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  .hero-text-section > button {
+    background-color: blue;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color:black;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  .job-offers {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+  }
+  .job-offers > h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color:hsl(224, 86%, 27%);
+  }
+  .job-offers > a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .jobs-section {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10vh;
+    color: black;
+  }
+  .job {
+    width: 400px;
+    border-right: 2px solid black;
+    padding-right: 10px;
+  }
+  .job-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    color: blue;
+  }
+  .job-location {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .job-location > p {
+    margin-left: 5px;
+    color:hsl(224, 86%, 27%);
+    font-weight: 600;
+  }
+  .job-description > p {
+    color:rgb(34, 27, 78);
+    font-weight: 600;
+    padding:5px;
+  }
+  .feature-companies {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 10vh;
+  }
+  .feature-companies > h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .companies-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .company > h2 {
+    font-size: 16px;
+  }
+  .icon-container {
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+ 
+  .clt-section {
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+    background-image: url('./pic/Home.png');
+    height:60vh;
+    padding-top: 130px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  .clt-section {
+    color: hsl(224, 86%, 27%);
+    display: flex;
+    flex-direction: column;
+    justify-content: cover;
+    align-items: flex-start;
+    padding-left: 3rem;
+    
+  }
+  .clt-text-section > h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .clt-text-section > p {
+    margin-bottom: 15px;
+  }
+  .new h1 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 10vh;
+   color:hsl(224, 86%, 27%);
+  }
+  .email-container {
+    display: flex;
+    align-items: center;
+  }
+  .email-container > input {
+    width: 250px;
+    margin-right: 15px;
+    border: 2px solid blue;
+    padding: 8px;
+    outline: none;
+    font-size: 14px;
+    
+  }
+  .email-container > button {
+    background-color: blue;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  .footer-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    text-align: center;
+  }
+  .footer-container > a {
+    text-decoration: none;
+    color:blue;
+    margin-left: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+  }
